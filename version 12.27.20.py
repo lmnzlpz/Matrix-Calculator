@@ -17,17 +17,7 @@ def menu():
         subtraction(int(rows), int(cols))
         
 
-def matrix_builder(rows,cols):
-    matrix = np.zeros((rows, cols), dtype=int)
-    for i in range(len(matrix)):
-        for k in range(len(matrix[i])):
-            argu = input()
-            try:
-                matrix[i][k] = argu
-            except ValueError:
-                pass
-    print(matrix)
-    return matrix
+
 
 def addition(rows, cols):
     print("Input the values for the 1st matrix from left to right and top to bottom one argument at a time.")
