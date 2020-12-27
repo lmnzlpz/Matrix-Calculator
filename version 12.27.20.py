@@ -39,6 +39,7 @@ def addition(rows, cols):
     for i in range(len(result)):
         for k in range(len(result[i])):
             result[i][k] = matrix1[i][k] + matrix2[i][k]
+    print("Your results:")
     print(result)
     return
 
